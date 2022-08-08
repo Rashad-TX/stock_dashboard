@@ -34,7 +34,7 @@ let OZSCprofitPer = (OZSCCurVal/SumCurVal) * 100;
     datasets: [
       {
         label: '% Invested',
-        data: [ GMEcostPer, HMBLostPer, AMCprofitPer, FRSXcostPer, FUNFFcostPer, DPLScostPer,OZSCprofitPer],
+        data: [ GMEcostPer.toFixed(1), HMBLostPer.toFixed(1), AMCprofitPer.toFixed(1), FRSXcostPer.toFixed(1), FUNFFcostPer.toFixed(1), DPLScostPer.toFixed(1),OZSCprofitPer.toFixed(1)],
         backgroundColor: [
           'green',
           'blue',
